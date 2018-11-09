@@ -18,11 +18,11 @@ matlab code/matlab/toy/save_data/run_esn.m
 
 For activation data, use
 ```
-python code/python/toy/lr_Xy.py
+python3 code/python/toy/lr_Xy.py
 ```
 For reservoir data, use
 ```
-python code/python/toy/lr_ESN.py
+python3 code/python/toy/lr_ESN.py
 ```
 Visualize results using
 ```
@@ -34,11 +34,11 @@ matlab code/matlab/toy/compare_ESN_avg_max.m
 
 Obtain weights using
 ```
-python code/python/toy/wts_PCA.py
+python3 code/python/toy/wts_PCA.py
 ```
 Test low dimensional models using
 ```
-python code/python/toy/lr_nDIM_ESN.py
+python3 code/python/toy/lr_nDIM_ESN.py
 ```
 
 ### Importance values for brain regions
