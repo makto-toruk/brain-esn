@@ -8,6 +8,7 @@ Code runs on a toy data set included in
 ```
 data/toy/data_Xy.mat
 ```
+Run code in their respective folders.
 
 ### Generate reservoir outputs
 
