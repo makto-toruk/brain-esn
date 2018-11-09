@@ -18,3 +18,6 @@ for ii = TAU
         save_PCA_ESN_Xy(ii, jj);
     end
 end
+
+% create folder for results
+mkdir ../../../results/toy
