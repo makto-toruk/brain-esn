@@ -14,6 +14,7 @@ from sklearn.model_selection import KFold
 datatask = 'toy'
 kSEED = 42
 kFOLD = 5
+kSUB = 10
 
 tt = 10 # TAU
 aa = 0.5 # ALPHA
@@ -52,8 +53,8 @@ if __name__ == "__main__":
         train_acc = []
         val_acc = []
         kf = KFold(n_splits = kFOLD)
-        for train, val in kf.split(list(range(0, 100))):
-            # locations based on sub IDs, sub IDs range from 1 to 100
+        for train, val in kf.split(list(range(0, kSUB))):
+            # locations based on sub IDs, sub IDs range from 1 to kSUB
             train_loc = []
             for ii in train:
                 train_loc.extend([i for i, j in enumerate(SUB_ID) if j == ii + 1])
