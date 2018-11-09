@@ -12,7 +12,7 @@ clear;
 close all;
 
 datatask = 'toy';
-data_dir = ['../../../../data/' datatask];
+data_dir = ['../../../data/' datatask];
 
 % parameters
 nDIM = 5; % number of top and bottom PCs
@@ -28,7 +28,7 @@ BLOCK_SIZE = data.BLOCK_SIZE;
 load([data_dir '/ESN/data_PCA_ESN_Xy_' num2str(TAU) '_' num2str(ALPHA) '.mat']);
 
 % load weights
-load(['../../../../results/' datatask '/wts_ESN_Xy_' num2str(TAU) '_' num2str(ALPHA) '.mat'])
+load(['../../../results/' datatask '/wts_ESN_Xy_' num2str(TAU) '_' num2str(ALPHA) '.mat'])
 [~, ord] = sort(weights);
 
 % pc components

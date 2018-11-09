@@ -1,4 +1,4 @@
-% save reservoir outputs for analysis in python
+% save PCA transformed reservoir outputs
 
 function save_PCA_ESN_Xy(TAU, ALPHA)
 
