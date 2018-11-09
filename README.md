@@ -4,7 +4,10 @@ The work includes use of reservoir computing to capture dynamics in fMRI data. A
 
 ## Demo code
 
-Code runs on a toy data set included in data/toy/data_Xy.mat
+Code runs on a toy data set included in 
+```
+data/toy/data_Xy.mat
+```
 
 ### Generate reservoir outputs
 
@@ -46,4 +49,4 @@ matlab code/matlab/toy/brain_importance.m
 
 ## Acknowledgments
 
-* Reservoir computing code is from the [Modeling Intelligent Dynamical Systems research group](http://minds.jacobs-university.de/research/esnresearch/))
+* Reservoir computing code is from the [Modeling Intelligent Dynamical Systems research group](http://minds.jacobs-university.de/research/esnresearch/)
