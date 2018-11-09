@@ -2,12 +2,9 @@
 
 function save_ESN_Xy(TAU, ALPHA)
 
+% change seed if it throws warnings
 rng('default');
-rng(1);
-
-% parameters
-%TAU = 5;
-%ALPHA = 0.5;
+rng(42);
 
 % library
 addpath(genpath('../../library'))
