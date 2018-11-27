@@ -1,6 +1,6 @@
 # Brain dynamics and temporal trajectories during task and naturalistic processing
 
-The work includes use of reservoir computing to capture dynamics in fMRI data. A preprint of this work can be found [here](https://www.biorxiv.org/content/early/2018/07/30/380402).
+The work includes use of reservoir computing to capture dynamics in fMRI data. The article can be found [here](https://authors.elsevier.com/a/1Y7Wk_NzVuWL8M).
 
 ## Demo code
 
